@@ -30,6 +30,14 @@
     border-radius: 0;
 }
 
+.btn-accordion{
+    background: none;
+    border: none;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 1rem;
+}
+
 
 /*☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰*/
 .banner{
