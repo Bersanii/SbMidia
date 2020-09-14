@@ -14,6 +14,13 @@
     width: 100%;
 }
 
+.tituloSec{
+    color: #ff4747;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
 /*☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰*/
 .btnContato{
     border: 2px solid #FFF;
@@ -49,7 +56,7 @@
 .card{
     background: none;
     color: #FFF;
-    border-color: #FFF;
+    border: none;
 }
 
 
