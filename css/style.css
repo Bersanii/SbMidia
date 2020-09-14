@@ -21,6 +21,18 @@
     margin-bottom: 20px;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul > li > a {
+    color: #000;
+    font-weight: 500;
+}
+ul > li > a:hover {
+    text-decoration: none;
+    color: #ff4747;
+}
 /*☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰*/
 .btnContato{
     border: 2px solid #FFF;
