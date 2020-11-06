@@ -85,6 +85,13 @@
       <?php include 'portifolio.html' ?>
 
     </div>
+
+    <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
+    <div class="container-fluid">
+      
+      <?php include 'destaques.html' ?>
+
+    </div>
     
     
 
