@@ -1,6 +1,3 @@
-*{
-    font-family: 'Montserrat', sans-serif;
-}
 .background{
     
     background: rgb(13,16,66);
@@ -16,7 +13,6 @@
 
 .tituloSec{
     color: #ff4747;
-    font-size: 1.4rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -71,9 +67,41 @@ ul > li > a:hover {
     border: none;
 }
 
+.duvidas{
+    padding: 0;
+}
 
 
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #logoHeader {
+        width: 20vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #logoHeader {
+        width: 15vw;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #logoHeader {
+        width: 10vw;
+    }
+
+    .duvidas{
+        padding: 0 20vw 0 20vw;
+    }
+}
 
 
 /* -webkit-transform: scale(1);
