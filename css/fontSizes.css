@@ -29,7 +29,7 @@
         font-size: 1.6em;
     }
 
-    .cart-title{
+    .card-title{
         font-size: 1.4em;
     }
     .card-text{
@@ -51,15 +51,15 @@
     }
     
     .tituloSec{
+        font-size: 3em;
+    }
+
+
+    .card-title{
         font-size: 2em;
     }
-
-
-    .cart-title{
-        font-size: 1.6em;
-    }
     .card-text{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     .btn-accordion{

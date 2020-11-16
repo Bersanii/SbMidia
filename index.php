@@ -50,22 +50,19 @@
     
     
     
-    <!-- ☰☰☰ BANNER ☰☰☰ -->
-    <div class="container-fluid banner shadow">
-      <div class="row" style="min-height: 100vh; padding: 20% 5vw 0 5vw; background: rgb(13,16,66);">
-          <div class="col-12 col-md-6" style="padding: 0;">
-              <img src="assets/logoWhite.png" alt="" id="logoBanner">
-              <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
-          </div>
-          <div class="col-12 col-md-6" style="padding: 0;">
-              <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
-              <a class="btnContato" href="#" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a>
-          </div>
-          
-          <a href="#servicos" style="margin: 20px auto 20px auto;">
-            <img src="assets/arrowDown.svg" class="arrowDown">
-          </a>
-      </div>
+    <!-- ☰☰☰ BANNER MOBILE ☰☰☰ -->
+    <div class="container-fluid banner shadow d-md-none">
+
+      <?php include 'banner.html' ?>
+
+    </div>
+
+
+    <!-- ☰☰☰ BANNER DESKTOP ☰☰☰ -->
+    <div class="container-fluid banner shadow d-none d-md-block" style="min-height: 100vh">
+
+      <?php include 'bannerDesktop.html' ?>
+
     </div>
     
     
@@ -136,7 +133,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header" style="border-bottom: 1px solid  #ff4747">
-            <h5 class="modal-title tituloSec" id="staticBackdropLabel" style="margin:0">FORMULÁRIO DE CONTATO</h5>
+            <h5 class="modal-title tituloSec" id="staticBackdropLabel" style="margin:0">CONTATO</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>

@@ -27,7 +27,7 @@
 .tituloSec{
     color: #ff4747;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 ul{
@@ -101,7 +101,25 @@ ul > li > a:hover {
 .banner{
     font-size: 1.5rem;
     text-align: center;
+
+    background: linear-gradient(45deg, rgba(60,172,248,1) 0%, rgba(13,16,66,1) 75%);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
 }
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
 
 
 .card{
