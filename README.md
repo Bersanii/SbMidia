@@ -17,6 +17,8 @@
 - [x] Implementar a responsividade da fonte.
 - [ ] Fade itens in view with.
 
+- OBS: O "bannerDesktop" é inutil e pode ser apagado nas próximas versões
+
 <br/><br/>
 
 ## Estrutura de arquivos :floppy_disk:
