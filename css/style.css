@@ -12,16 +12,16 @@
 }
 
 .arrowDown{
-    color: #FFF; 
     width:50px; 
     height: auto;
-    position: relative;
-    margin-top: -100px;
-    left: 43vw;
 }
 
 .marginSections{
-    margin-bottom: 150px;
+    margin-bottom: 80px;
+}
+
+.paddingSection{
+    padding: 10vh 5vw 10vh 5vw;
 }
 
 .tituloSec{
@@ -80,9 +80,7 @@ ul > li > a:hover {
     border: none;
 }
 
-.duvidas{
-    padding: 0;
-}
+
 
 
 
@@ -104,9 +102,19 @@ ul > li > a:hover {
         width: 15vw;
     }
 
+    .arrowDown{
+        width:60px;
+    }
+
+    .marginSections{
+        margin-bottom: 100px;
+    }
+
     .tituloSec{
         margin-bottom: 100px;
     }
+
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -115,8 +123,13 @@ ul > li > a:hover {
         width: 10vw;
     }
 
-    .duvidas{
-        padding: 0 20vw 0 20vw;
+    .arrowDown{
+        margin-top: 50px;
+        width:80px; 
+    }
+
+    .paddingSection{
+        padding: 10vh 15vw 10vh 15vw;
     }
 
     .tituloSec{

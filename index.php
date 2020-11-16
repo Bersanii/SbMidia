@@ -52,7 +52,7 @@
     
     <!-- ☰☰☰ BANNER ☰☰☰ -->
     <div class="container-fluid banner shadow">
-        <div class="row" style="min-height: 100vh; padding: 15% 5vw 0 5vw; background: rgb(13,16,66);">
+        <div class="row" style="min-height: 100vh; padding: 20% 5vw 0 5vw; background: rgb(13,16,66);">
             <div class="col-12 col-md-6" style="padding: 0;">
                 <img src="assets/logoWhite.png" alt="" id="logoBanner">
                 <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
@@ -61,37 +61,41 @@
                 <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
                 <a class="btnContato" href="#">CONTATO</a>
             </div>
+            
+            <a href="#servicos" style="margin: 20px auto 20px auto;">
+              <img src="assets/arrowDown.svg" class="arrowDown">
+            </a>
         </div>
+
+        
     </div>
     
-    <a href="#servicos">
-      <img src="assets/arrowDown.svg" class="arrowDown">
-    </a>
+    
 
     
     <!-- ☰☰☰ CARDS ☰☰☰ -->
-    <div class="container-fluid marginSections" id="servicos">
+    <div class="container-fluid paddingSection  marginSections" id="servicos">
         
       <?php include 'cards.html' ?>
 
     </div>
 
     <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
-    <div class="container-fluid marginSections">
+    <div class="container-fluid paddingSection marginSections">
       
       <?php include 'destaques.html' ?>
 
     </div>
 
     <!-- ☰☰☰ DÚVIDAS ☰☰☰ -->
-    <div class="containe-fluid duvidas marginSections" id="duvidas">
+    <div class="containe-fluid  paddingSection marginSections" id="duvidas">
 
       <?php include 'duvidas.html' ?>
 
     </div>
 
     <!-- ☰☰☰ PORTIFÓLIO ☰☰☰ -->
-    <div class="container-fluid marginSections" id="portifolio">
+    <div class="container-fluid paddingSection marginSections" id="portifolio">
       
       <?php include 'portifolio.html' ?>
 
