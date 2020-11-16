@@ -11,6 +11,19 @@
     width: 100%;
 }
 
+.arrowDown{
+    color: #FFF; 
+    width:50px; 
+    height: auto;
+    position: relative;
+    margin-top: -100px;
+    left: 43vw;
+}
+
+.marginSections{
+    margin-bottom: 150px;
+}
+
 .tituloSec{
     color: #ff4747;
     font-weight: 800;
@@ -90,6 +103,10 @@ ul > li > a:hover {
     #logoHeader {
         width: 15vw;
     }
+
+    .tituloSec{
+        margin-bottom: 100px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -100,6 +117,10 @@ ul > li > a:hover {
 
     .duvidas{
         padding: 0 20vw 0 20vw;
+    }
+
+    .tituloSec{
+        margin-bottom: 150px;
     }
 }
 

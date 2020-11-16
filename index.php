@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" style="scroll-behavior: smooth;">
 <head>
     <title>Sb Mídia</title>
     <meta charset="UTF-8">
@@ -19,13 +19,13 @@
             <img src="images/navbar.png" alt="">
         </button>
         <ul class="list-group list-group-horizontal d-none d-lg-flex">
-          <li class="navbarSpace d-flex align-content-around flex-wrap"><a href="#">SERVIÇOS</a></li>
+          <li class="navbarSpace d-flex align-content-around flex-wrap" style="margin-right: 15px"><a href="#servicos">SERVIÇOS</a></li>
           <br>
-          <li class="navbarSpace d-flex align-content-around flex-wrap"><a href="#">DÚVIDAS</a></li>
+          <li class="navbarSpace d-flex align-content-around flex-wrap" style="margin-right: 15px"><a href="#duvidas">DÚVIDAS</a></li>
           <br>
-          <li class="navbarSpace d-flex align-content-around flex-wrap"><a href="#">PORTIFÓLIO</a></li>
+          <li class="navbarSpace d-flex align-content-around flex-wrap" style="margin-right: 35px"><a href="#portifolio">PORTIFÓLIO</a></li>
           <br>
-          <li class="d-flex align-content-around flex-wrap"><a href="#" class="btn-login">CONTATO</a></li>
+          <li class="d-flex align-content-around flex-wrap" style="margin-right: 15px"><a href="#" class="btn-login">CONTATO</a></li>
         </ul>
     </div>
     <div class="collapse text-center sticky-top" id="navbarToggleExternalContent">
@@ -33,11 +33,11 @@
             <ul>
               <li><a href="#">#</a></li>
               <br>
-              <li><a href="#">SERVIÇOS</a></li>
+              <li><a href="#servicos">SERVIÇOS</a></li>
               <br>
-              <li><a href="#">DÚVIDAS</a></li>
+              <li><a href="#duvidas">DÚVIDAS</a></li>
               <br>
-              <li><a href="#">PORTIFÓLIO</a></li>
+              <li><a href="#portifolio">PORTIFÓLIO</a></li>
               <br>
               <br>
               <li><a href="#" class="btn-login">CONTATO</a></li>
@@ -52,10 +52,10 @@
     
     <!-- ☰☰☰ BANNER ☰☰☰ -->
     <div class="container-fluid banner shadow">
-        <div class="row" style="min-height: 100vh; padding: 20vh 5vw 0 5vw; background: rgb(13,16,66);">
+        <div class="row" style="min-height: 100vh; padding: 15% 5vw 0 5vw; background: rgb(13,16,66);">
             <div class="col-12 col-md-6" style="padding: 0;">
                 <img src="assets/logoWhite.png" alt="" id="logoBanner">
-                <div style="color: #FFF; margin-top: 5%; font-weight: 700;">Soluções para web design e social media</div>
+                <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
             </div>
             <div class="col-12 col-md-6" style="padding: 0;">
                 <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
@@ -64,35 +64,40 @@
         </div>
     </div>
     
+    <a href="#servicos">
+      <img src="assets/arrowDown.svg" class="arrowDown">
+    </a>
 
     
     <!-- ☰☰☰ CARDS ☰☰☰ -->
-    <div class="container-fluid">
+    <div class="container-fluid marginSections" id="servicos">
         
       <?php include 'cards.html' ?>
 
     </div>
 
+    <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
+    <div class="container-fluid marginSections">
+      
+      <?php include 'destaques.html' ?>
+
+    </div>
+
     <!-- ☰☰☰ DÚVIDAS ☰☰☰ -->
-    <div class="containe-fluid duvidas">
+    <div class="containe-fluid duvidas marginSections" id="duvidas">
 
       <?php include 'duvidas.html' ?>
 
     </div>
 
     <!-- ☰☰☰ PORTIFÓLIO ☰☰☰ -->
-    <div class="container-fluid">
+    <div class="container-fluid marginSections" id="portifolio">
       
       <?php include 'portifolio.html' ?>
 
     </div>
 
-    <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
-    <div class="container-fluid">
-      
-      <?php include 'destaques.html' ?>
-
-    </div>
+    
     
     
 

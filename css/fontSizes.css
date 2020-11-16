@@ -21,10 +21,51 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .btnContato{
+        font-size: 1.4em;
+    }
+    
+    .tituloSec{
+        font-size: 1.6em;
+    }
 
+    .cart-title{
+        font-size: 1.4em;
+    }
+    .card-text{
+        font-size: 1.2em;
+    }
+
+    .btn-accordion{
+        font-size: 0.6em;
+    }
+    .duvidaFontSize{
+        font-size: 1.2em;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .btnContato{
+        font-size: 1.6em;
+    }
+    
+    .tituloSec{
+        font-size: 2em;
+    }
 
+
+    .cart-title{
+        font-size: 1.6em;
+    }
+    .card-text{
+        font-size: 1.4em;
+    }
+
+    .btn-accordion{
+        font-size: 0.8em;
+    }
+    .duvidaFontSize{
+        font-size: 1.4em;
+    }
 }
