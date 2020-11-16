@@ -14,7 +14,8 @@
 
 ## ToDo :heavy_check_mark:
 - [x] Configurar o e-mail de contato. 
-- [ ] Implementar a responsividade da fonte.
+- [x] Implementar a responsividade da fonte.
+- [ ] Fade itens in view with.
 
 <br/><br/>
 
@@ -25,3 +26,4 @@
 &nbsp;&nbsp; ↳ fontSizes.css <br/><br/>
 
 - Em qualquer projeto web o tamanho da fonte sempre tem que ser mudado, para facilitar a alteração declare o tamanho das fontes no arquivo **fontSizes.css**.
+- Alterações em elementos pontuais como cores de elementos devem ser feitos na tag <style/> dentro do próprio html da secção
