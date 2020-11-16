@@ -58,6 +58,36 @@ ul > li > a:hover {
     border-radius: 0;
 }
 
+.btnFormEnviar{
+    border: 2px solid #0d1042;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem;
+    color: #0d1042;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.btnFormEnviar:hover{
+    color: #FFF;
+    background-color: #0d1042;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+
+.btnFormCancelar{
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color:#ff4747;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.btnFormCancelar:hover{
+    color: #FFF;
+    background-color: #ff4747;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 .btn-accordion{
     background: none;
     border: none;

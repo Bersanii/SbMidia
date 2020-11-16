@@ -25,7 +25,7 @@
           <br>
           <li class="navbarSpace d-flex align-content-around flex-wrap" style="margin-right: 35px"><a href="#portifolio">PORTIFÓLIO</a></li>
           <br>
-          <li class="d-flex align-content-around flex-wrap" style="margin-right: 15px"><a href="#" class="btn-login">CONTATO</a></li>
+          <li class="d-flex align-content-around flex-wrap" style="margin-right: 15px"><a href="" class="btn-login" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a></li>
         </ul>
     </div>
     <div class="collapse text-center sticky-top" id="navbarToggleExternalContent">
@@ -40,7 +40,7 @@
               <li><a href="#portifolio">PORTIFÓLIO</a></li>
               <br>
               <br>
-              <li><a href="#" class="btn-login">CONTATO</a></li>
+              <li><a href="" class="btn-login" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a></li>
             </ul>
         </div>
     </div>
@@ -52,22 +52,20 @@
     
     <!-- ☰☰☰ BANNER ☰☰☰ -->
     <div class="container-fluid banner shadow">
-        <div class="row" style="min-height: 100vh; padding: 20% 5vw 0 5vw; background: rgb(13,16,66);">
-            <div class="col-12 col-md-6" style="padding: 0;">
-                <img src="assets/logoWhite.png" alt="" id="logoBanner">
-                <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
-            </div>
-            <div class="col-12 col-md-6" style="padding: 0;">
-                <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
-                <a class="btnContato" href="#">CONTATO</a>
-            </div>
-            
-            <a href="#servicos" style="margin: 20px auto 20px auto;">
-              <img src="assets/arrowDown.svg" class="arrowDown">
-            </a>
-        </div>
-
-        
+      <div class="row" style="min-height: 100vh; padding: 20% 5vw 0 5vw; background: rgb(13,16,66);">
+          <div class="col-12 col-md-6" style="padding: 0;">
+              <img src="assets/logoWhite.png" alt="" id="logoBanner">
+              <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
+          </div>
+          <div class="col-12 col-md-6" style="padding: 0;">
+              <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
+              <a class="btnContato" href="#" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a>
+          </div>
+          
+          <a href="#servicos" style="margin: 20px auto 20px auto;">
+            <img src="assets/arrowDown.svg" class="arrowDown">
+          </a>
+      </div>
     </div>
     
     
@@ -101,11 +99,58 @@
 
     </div>
 
-    
-    
+    <!-- ☰☰☰ FOOTER ☰☰☰ -->
+    <div class="container-fluid">
+      <div class="row" style="background-color: #121430; border-top: #ff4747 4px solid; padding: 2vh 5vw 2vh 5vw">
+        <div class="col-12 col-sm-6 d-flex justify-content-center" style="margin-bottom: 15px">
+          <img src="assets/logoWhite.png" alt="" style="width: 50%; height: auto">
+        </div>
+        <div class="col-12 col-sm-6 card-text d-flex justify-content-sm-center" style="color: #FFF">
+          <div>
+            Entre em contato: 
+            <br/>
+            <strong> contato@sbmidia.com</strong>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
 
+    <!-- ☰☰☰ BOTÕES ☰☰☰ -->
+    
+    <div class="botaowhats">
+      <a href="https://api.whatsapp.com/send?phone=5519981219245&text=Ol%C3%A1%20vim%20pelo%20website" target="_blank">
+        <!-- <i style="margin-top:16px" class="fa fa-whatsapp"></i> -->
+        <img src="assets/Whats.png" alt="" style="position:fixed; width:60px; height:60px; bottom: 20px; right: 20px">
+      </a>
+      <a href="https://www.instagram.com/cap.sbmidia/" target="_blank">
+        <!-- <i style="margin-top:16px" class="fa fa-instagram"></i> -->
+        <img src="assets/Insta.png" alt="" style="position:fixed; width:60px; height:60px; bottom: 100px; right: 20px">
+      </a>  
+    </div>
+
+
+    <!-- ☰☰☰ MODAL ☰☰☰ -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="border-bottom: 1px solid  #ff4747">
+            <h5 class="modal-title tituloSec" id="staticBackdropLabel" style="margin:0">FORMULÁRIO DE CONTATO</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="border-bottom: 1px solid  #ff4747">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btnFormCancelar" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btnFormEnviar">ENVIAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
