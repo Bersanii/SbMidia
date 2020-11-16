@@ -1,14 +1,63 @@
-<div class="row" style="min-height: 100vh; padding: 100px 5vw 0 5vw;">
-    <div class="col-12 col-md-6" style="padding: 0;">
-        <img src="assets/logoWhite.png" alt="" id="logoBanner">
-        <div style="color: #FFF; margin-top: 5%; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
+<style>
+    .arrowDown{
+        position: relative;
+        transition: all .2s;
+        margin: 50px auto 50px auto;
+    }
+    .arrowDown:hover{
+        transform: scale(1.1);
+    }
+
+    .marginContato{
+        margin-bottom: 20px;
+    }
+
+    #logoBanner {
+        width: 100%;
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        #logoBanner {
+            width: 80%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        #logoBanner {
+            width: 60%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    }
+</style>
+
+
+<div style="min-height: 100vh;">
+
+    <div class="row" style="padding: 100px 5vw 0 5vw; margin-bottom: 100px;">
+        <div class="col-12 card-text" style="padding: 0;">
+            <img src="assets/logoWhite.png" alt="" id="logoBanner">
+            <div style="color: #FFF; margin-top: 10px; font-weight: 400;">SOLUÇÕES PARA WEB E SOCIAL MEDIA</div>
+        </div>
     </div>
-    <div class="col-12 col-md-6" style="padding: 0;">
-        <div style="color: #FFF; margin: 10% 0;">Fale conosco consulte preços e prazos:</div>
-        <a class="btnContato" href="#" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a>
+
+    <div class="row">
+        <div class="col-12 text-center card-text">
+            <div class="marginContato" style="color: #FFF;">Fale conosco consulte preços e prazos:</div>
+            <a class="btnContato" href="#" data-toggle="modal" data-target="#staticBackdrop">CONTATO</a>
+        </div>
     </div>
-    
-    <a href="#servicos" style="margin: 20px auto 20px auto;">
-      <img src="assets/arrowDown.svg" class="arrowDown">
+
+    <a href="#servicos" style="margin: 0 auto 0 auto;">
+        <img src="assets/arrowDown.svg" class="arrowDown">
     </a>
+
 </div>

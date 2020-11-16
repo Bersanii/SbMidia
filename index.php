@@ -51,19 +51,12 @@
     
     
     <!-- ☰☰☰ BANNER MOBILE ☰☰☰ -->
-    <div class="container-fluid banner shadow d-md-none">
+    <div class="container-fluid banner shadow">
 
       <?php include 'banner.html' ?>
 
     </div>
 
-
-    <!-- ☰☰☰ BANNER DESKTOP ☰☰☰ -->
-    <div class="container-fluid banner shadow d-none d-md-block" style="min-height: 100vh">
-
-      <?php include 'bannerDesktop.html' ?>
-
-    </div>
     
     
 
