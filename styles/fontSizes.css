@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.tituloSec{
+    font-size: 1.4em;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btnContato{
+        font-size: 1.4em;
+    }
+    
+    .tituloSec{
+        font-size: 1.6em;
+    }
+
+    .card-title{
+        font-size: 1.4em;
+    }
+    .card-text{
+        font-size: 1.2em;
+    }
+
+    .btn-accordion{
+        font-size: 0.6em;
+    }
+    .duvidaFontSize{
+        font-size: 1.2em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .btnContato{
+        font-size: 1.6em;
+    }
+    
+    .tituloSec{
+        font-size: 3em;
+    }
+
+
+    .card-title{
+        font-size: 2em;
+    }
+    .card-text{
+        font-size: 1.6em;
+    }
+
+    .btn-accordion{
+        font-size: 0.8em;
+    }
+    .duvidaFontSize{
+        font-size: 1.4em;
+    }
+}

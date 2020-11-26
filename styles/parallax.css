@@ -1,0 +1,27 @@
+.parallax {
+    /* background: url('../assets/landscape.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed; */
+    
+    background: linear-gradient(45deg, rgba(60,172,248,1) 0%, rgba(13,16,66,1) 75%);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+
+    position: sticky;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}

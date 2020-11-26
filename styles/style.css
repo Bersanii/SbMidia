@@ -1,0 +1,194 @@
+.background{
+    position: relative;
+    background-color: #222222;
+    /* background: rgb(13,16,66);
+    background: linear-gradient(45deg, rgba(13,16,66,1) 50%, rgba(255,71,71,1) 100%); */
+}
+
+#logoHeader {
+    width: 40vw;
+}
+
+
+.arrowDown{
+    width:50px; 
+    height: auto;
+}
+
+.marginSections{
+    margin-bottom: 80px;
+}
+
+.paddingSection{
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+.tituloSec{
+    color: #ff4747;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul > li > a {
+    color: #000;
+    font-weight: 500;
+}
+ul > li > a:hover {
+    text-decoration: none;
+    color: #ff4747;
+}
+/*☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰*/
+.btnContato{
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem;
+    color: #FFF;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.btnContato:hover{
+    color: #0d1042;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.btnFormEnviar{
+    border: 2px solid #0d1042;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem;
+    color: #0d1042;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.btnFormEnviar:hover{
+    color: #FFF;
+    background-color: #0d1042;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+
+.btnFormCancelar{
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color:#ff4747;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.btnFormCancelar:hover{
+    color: #FFF;
+    background-color: #ff4747;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-accordion{
+    background: none;
+    border: none;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+
+/*☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰*/
+.banner{
+    font-size: 1.5rem;
+    text-align: center;
+
+    /* background: linear-gradient(45deg, rgba(60,172,248,1) 0%, rgba(13,16,66,1) 75%);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite; */
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+
+
+.card{
+    background: none;
+    color: #FFF;
+    border: none;
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #logoHeader {
+        width: 20vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #logoHeader {
+        width: 15vw;
+    }
+
+    .arrowDown{
+        width:60px;
+    }
+
+    .marginSections{
+        margin-bottom: 100px;
+    }
+
+    .tituloSec{
+        margin-bottom: 100px;
+    }
+
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #logoHeader {
+        width: 10vw;
+    }
+
+    .arrowDown{
+        margin-top: 50px;
+        width:80px; 
+    }
+
+    .paddingSection{
+        padding: 10vh 15vw 10vh 15vw;
+    }
+
+    .tituloSec{
+        margin-bottom: 150px;
+    }
+}
+
+
+/* -webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+
+-webkit-transform: scale(1.05);
+transform: scale(1.05); */

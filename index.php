@@ -8,11 +8,12 @@
     <!-- Importação do Bootstrap via CDN (Não mexer / Importar stylesheet do bootstrap antes)-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fontSizes.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/parallax.css">
+    <link rel="stylesheet" href="styles/fontSizes.css">
 </head>
-<body class=" background">
-    <!-- ☰☰☰ NAVBAR ☰☰☰ -->
+<body>
+    <!-- ☰☰☰ NAVBAR ☰☰☰ 
     <div class="navbar bg-light fixed-top">
         <img src="assets/logo.png" alt="" id="logoHeader">
         <button class="navbar-toggler d-lg-none" style="background: none; border: 2px solid #212529;" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,48 +45,48 @@
             </ul>
         </div>
     </div>
+    -->
     
     
     
     
     
-    
-    <!-- ☰☰☰ BANNER MOBILE ☰☰☰ -->
-    <div class="container-fluid banner shadow">
-
-      <?php include 'banner.html' ?>
-
+    <!-- ☰☰☰ BANNER ☰☰☰ -->
+    <div class="container-fluid banner shadow parallax">
+        <?php include 'banner.html' ?>
     </div>
 
     
     
 
-    
-    <!-- ☰☰☰ CARDS ☰☰☰ -->
-    <div class="container-fluid paddingSection  marginSections" id="servicos">
+    <div  class=" background">
+      <!-- ☰☰☰ CARDS ☰☰☰ -->
+      <div class="container-fluid paddingSection  marginSections" id="servicos" style="background-color: #FF4747;">
+          
+        <?php include 'cards.html' ?>
+
+      </div>
+
+      <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
+      <div class="container-fluid paddingSection marginSections">
         
-      <?php include 'cards.html' ?>
+        <?php include 'destaques.html' ?>
 
-    </div>
+      </div>
 
-    <!-- ☰☰☰ DESTAQUES ☰☰☰ -->
-    <div class="container-fluid paddingSection marginSections">
-      
-      <?php include 'destaques.html' ?>
+      <!-- ☰☰☰ DÚVIDAS ☰☰☰ -->
+      <div class="containe-fluid  paddingSection marginSections" id="duvidas">
 
-    </div>
+        <?php include 'duvidas.html' ?>
 
-    <!-- ☰☰☰ DÚVIDAS ☰☰☰ -->
-    <div class="containe-fluid  paddingSection marginSections" id="duvidas">
+      </div>
 
-      <?php include 'duvidas.html' ?>
+      <!-- ☰☰☰ PORTIFÓLIO ☰☰☰ -->
+      <div class="container-fluid paddingSection marginSections" id="portifolio">
+        
+        <?php include 'portifolio.html' ?>
 
-    </div>
-
-    <!-- ☰☰☰ PORTIFÓLIO ☰☰☰ -->
-    <div class="container-fluid paddingSection marginSections" id="portifolio">
-      
-      <?php include 'portifolio.html' ?>
+      </div>
 
     </div>
 
