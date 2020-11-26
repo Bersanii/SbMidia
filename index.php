@@ -88,24 +88,24 @@
 
       </div>
 
-    </div>
+    
 
-    <!-- ☰☰☰ FOOTER ☰☰☰ -->
-    <div class="container-fluid">
-      <div class="row" style="background-color: #121430; border-top: #ff4747 4px solid; padding: 2vh 5vw 2vh 5vw">
-        <div class="col-12 col-sm-6 d-flex justify-content-center" style="margin-bottom: 15px">
-          <img src="assets/logoWhite.png" alt="" style="width: 50%; height: auto">
-        </div>
-        <div class="col-12 col-sm-6 card-text d-flex justify-content-sm-center" style="color: #FFF">
-          <div>
-            Entre em contato: 
-            <br/>
-            <strong> contato@sbmidia.com</strong>
+      <!-- ☰☰☰ FOOTER ☰☰☰ -->
+      <div class="container-fluid">
+        <div class="row" style="background-color: #2b2b2b; border-top: #ff4747 4px solid; padding: 2vh 5vw 2vh 5vw">
+          <div class="col-12 col-sm-6 d-flex justify-content-center" style="margin-bottom: 15px">
+            <img src="assets/logoWhite.png" alt="" style="width: 50%; height: auto">
+          </div>
+          <div class="col-12 col-sm-6 card-text d-flex justify-content-center text-center text-sm-left" style="color: #FFF">
+            <div>
+              Entre em contato: 
+              <br/>
+              <strong> contato@sbmidia.com</strong>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    
 
 
     <!-- ☰☰☰ BOTÕES ☰☰☰ -->
